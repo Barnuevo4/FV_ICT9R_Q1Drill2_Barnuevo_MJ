@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill2</title>
+
+    <style>
+        body {
+            background-color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        img {
+            width: 150px;
+            display: block;
+            margin: 0 auto 15px;
+        }
+
+        input[type="text"],
+        textarea {
+            padding: 8px;
+            margin: 5px 0;
+        }
+
+        textarea {
+            width: 95%;
+        }
+
+        #submit {
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>RATE A MOVIE</h1>
+        <p>Say something about the form ☺️</p>
+    </header>
+
+    <br>
+
+    <section>
+        <form action="">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYHDMQyrSMjY2oHqCPlGWoA8VXLGOquOCvF-NSNOUuPlBvMP7gYwLjjck&s=10"
+                 alt="movie logo">
+
+            <label for="movie">Movie Title</label>
+            <input type="text" id="movie" name="movie" placeholder="Enter here...">
+
+            <br><br>
+
+            <label>Genre</label>
+            <br>
+
+            <input type="checkbox" id="genre1" name="genre" value="Action">
+            <label for="genre1">Action</label>
+
+            <input type="checkbox" id="genre2" name="genre" value="Comedy">
+            <label for="genre2">Comedy</label>
+
+            <input type="checkbox" id="genre3" name="genre" value="Romance">
+            <label for="genre3">Romance</label>
+
+            <input type="checkbox" id="genre4" name="genre" value="Sci-fi">
+            <label for="genre4">Sci-fi</label>
+
+            <br><br>
+
+            <label>Rating</label>
+            <br>
+
+            <input type="radio" id="rate1" name="rate" value="1">
+            <label for="rate1">1⭐</label>
+
+            <input type="radio" id="rate2" name="rate" value="2">
+            <label for="rate2">2⭐</label>
+
+            <input type="radio" id="rate3" name="rate" value="3">
+            <label for="rate3">3⭐</label>
+
+            <input type="radio" id="rate4" name="rate" value="4">
+            <label for="rate4">4⭐</label>
+
+            <input type="radio" id="rate5" name="rate" value="5">
+            <label for="rate5">5⭐</label>
+
+            <br><br>
+
+            <textarea id="review" name="review"
+                      placeholder="Write a review here..."
+                      rows="5"></textarea>
+
+            <br>
+
+            <input type="submit" id="submit" name="submit" value="Submit Review">
+
+            <br><br>
+
+            For movie review tips, click
+            <a href="https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/"
+               target="_blank">here</a>
+
+        </form>
+    </section>
+
+</body>
+</html>
+
+ 
